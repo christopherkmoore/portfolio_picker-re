@@ -14,6 +14,7 @@
 		03A61C7420153BED00A7C531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A61C7320153BED00A7C531 /* Assets.xcassets */; };
 		03A61C7720153BED00A7C531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A61C7520153BED00A7C531 /* LaunchScreen.storyboard */; };
 		03A61C8220153BED00A7C531 /* Portfolio_Picker_reTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A61C8120153BED00A7C531 /* Portfolio_Picker_reTests.swift */; };
+		03A61C8D20153C3200A7C531 /* Networking in Resources */ = {isa = PBXBuildFile; fileRef = 03A61C8C20153C3200A7C531 /* Networking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		03A61C7D20153BED00A7C531 /* Portfolio_Picker-reTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Portfolio_Picker-reTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A61C8120153BED00A7C531 /* Portfolio_Picker_reTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio_Picker_reTests.swift; sourceTree = "<group>"; };
 		03A61C8320153BED00A7C531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A61C8C20153C3200A7C531 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Networking; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		03A61C6820153BED00A7C531 /* Portfolio_Picker-re */ = {
 			isa = PBXGroup;
 			children = (
+				03A61C8C20153C3200A7C531 /* Networking */,
 				03A61C6920153BED00A7C531 /* AppDelegate.swift */,
 				03A61C6B20153BED00A7C531 /* ViewController.swift */,
 				03A61C6D20153BED00A7C531 /* Main.storyboard */,
@@ -184,6 +187,7 @@
 			files = (
 				03A61C7720153BED00A7C531 /* LaunchScreen.storyboard in Resources */,
 				03A61C7420153BED00A7C531 /* Assets.xcassets in Resources */,
+				03A61C8D20153C3200A7C531 /* Networking in Resources */,
 				03A61C6F20153BED00A7C531 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
